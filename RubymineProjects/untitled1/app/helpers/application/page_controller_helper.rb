@@ -1,0 +1,2 @@
+module Application::PageControllerHelper
+end
