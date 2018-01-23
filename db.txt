@@ -18,7 +18,7 @@ Answeroption question:references user:references content:text selected:boolean d
 
 Alert type:string deleted:boolean
 
-Alertsubscription user:references alert:references
+Alertsubscription user:references alert:references deleted:boolean
 
 Alertmessage alert:references description:string deleted:boolean
 
