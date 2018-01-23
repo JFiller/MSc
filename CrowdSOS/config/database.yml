@@ -32,4 +32,4 @@ production:
     database: crowdsos
     pool: 5
     username: Julia
-    password: 
+    password:

@@ -1,0 +1,27 @@
+User nickname:string firstname:string lastname:string password:string email:string registrationdate:date deleted:boolean
+
+Contribution name:string username:string content:text date:date user:references group:references type:string deleted:boolean
+
+Group name:string description:text date:date deleted:boolean
+
+Mentoring name:string description:text date:date deleted:boolean
+
+Member mentoring:references user:references role:string deleted:boolean
+
+Subscription user:references contribution:references
+
+Post username:string user:references content:text date:date vote_counter:integer deleted:boolean
+
+Question question:string deleted:boolean
+
+Answeroption question:references user:references content:text selected:boolean deleted:boolean
+
+Alert type:string deleted:boolean
+
+Alertsubscription user:references alert:references
+
+Alertmessage alert:references description:string deleted:boolean
+
+Useralert user:references alertmessage:references 
+
+
