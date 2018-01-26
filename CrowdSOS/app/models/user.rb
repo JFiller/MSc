@@ -8,39 +8,40 @@ class User < ApplicationRecord
   has_many :alertsubscriptions
   has_many :useralerts
 
-  attr_accessor :nickname, :firstname, :lastname, :password, :email, :registrationdate, :deleted
+  attr_accessor :nickname, :firstname, :lastname, :password, :email#, :registrationdate, :deleted
 
-end
-def initialize nickname, firstname, lastname, password, email
-  @nickname, @firstname, @lastname, @password, @email = nickname, firstname,lastname, password,email
-  t = Time.new
-  t = Time.now
-  @registrationdate = t
-  @deleted = false
-end
+
+#  def new nickname, firstname, lastname, password, email
+#    @nickname, @firstname, @lastname, @password, @email = nickname, firstname,lastname, password,email
+ #   t = Time.new
+ #   t = Time.now
+  #  @registrationdate = t
+   # @deleted = false
+  #end
 
 #Getter
-def nickname
-  @nickname
-end
-def nickname=(value)
-  super(value)
-end
-def firstname
-  @firstname
-end
-def lastname
-  @lastname
-end
-def password
-  @password
-end
-def email
-  @email
-end
-def registrationdate
-  @registrationdate
-end
-def deleted
-  @deleted
+#  def nickname
+#    @nickname
+#  end
+#  def nickname=(value)
+ #   super(value)
+ # end
+  #def firstname
+   # @firstname
+#  end
+#  def lastname
+#    @lastname
+ ## end
+  #def password
+ #   @password
+ # end
+ # def email
+  #  @email
+  #end
+ # def registrationdate
+ ##   @registrationdate
+  #end
+  #def deleted
+  #  @deleted
+  #end
 end
