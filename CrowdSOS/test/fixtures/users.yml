@@ -6,7 +6,6 @@ one:
   lastname: MyString
   password: MyString
   email: MyString
-  registrationdate: 2018-01-22
   deleted: false
 
 two:
@@ -15,5 +14,4 @@ two:
   lastname: MyString
   password: MyString
   email: MyString
-  registrationdate: 2018-01-22
   deleted: false
